@@ -1,0 +1,250 @@
+
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+    background-color: #EEEEEE;
+}
+
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEEEEE;
+}
+
+#head{
+
+    height: 120px;
+    background-color: skyblue;
+
+    border: 1px solid #CDCDCD;
+
+}
+
+
+#left{
+    width: 150px;
+    min-height: 400px;
+    border: 1px solid #CDCDCD;
+    float:left;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#navbar {
+    background-color:blue;
+    height: 40px;
+    border: 1px solid #CDCDCD;
+
+
+}
+#navbar ul{
+    list-style-type: none;
+
+}
+#navbar, #navbar ul, #navbar li{
+    padding:0;
+    margin:0;
+}
+#navbar ul li{
+    position: relative;
+    float: left;
+    width: 160px;
+    height: 40px;
+    background-color: blue;
+    border-right: 1px solid white;
+    line-height: 40px;
+    text-align: center;
+
+}
+#navbar ul li a{
+    font-family: Tahoma;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+#navbar ul li:hover{
+    background-color: skyblue;
+}
+#navbar ul li:hover a{
+    color: black;
+}
+#menucon{
+    position: absolute;
+    display: none;
+}
+#navbar ul li:hover #menucon{
+    display: block;
+}
+#content{
+    width: 680px;
+    min-height: 400px;
+    border: 1px solid #CDCDCD;
+    float:left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#right{
+    width: 150px;
+    min-height: 400px;
+    border: 1px solid #CDCDCD;
+    float:right;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color: white;
+
+}
+
+#footer{
+    height: 100px;
+    width: 100%x;
+    clear: both;
+    border: 1px solid #CDCDCD;
+    background-color: burlywood;
+
+}
+body{
+    font-family: Arial;
+}
+#menu, #menu ul, #menu li{
+    padding:0;
+    margin:0;
+}
+
+#menu li{
+    list-style: none;
+    position: relative;
+    width:100px;
+    height: 30px;
+    padding:0 20px;
+    background-color: white;
+    line-height: 30px;
+    cursor:pointer;
+}
+
+#menu li a{
+    text-decoration:none;
+    color: black;
+}
+
+#menu li:hover{
+    background-color:skyblue;
+    color: white;
+}
+
+
+#menu ul li:hover ul{
+    visibility:visible;
+
+}
+h3{
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+    font-family: Tahoma;
+
+}
+
+form{
+    text-align: center;
+    float: right;
+    padding: 50px 100px 0 0;
+}
+#truyendc{
+
+    margin: 5px 5px 5px 5px;
+    min-height: 250px;
+    width: 670px;
+    background-color: white;
+
+}
+#truyenmoi{
+    margin: 5px 5px 5px 5px;
+    min-height: 400px;
+    width: 670px;
+    background-color: white;
+
+
+}
+h2{
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 15px;
+    color: blue;
+    padding: 5px;
+
+
+}
+.tin{
+    height: 180px;
+    width: 210px;
+    margin: 5px;
+    float: left;
+
+}
+.tinnho{
+    height: 150px;
+    width: 155px;
+    margin: 5px;
+    float: left;
+    margin-bottom: 25px;
+
+
+}
+.anhto{
+    width: 210px;
+    height: 170px;
+
+}
+a{
+    font-family: Tahoma;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+.anhnho{
+    height: 140px;
+    width: 155px;
+
+}
+.footer-text{
+   margin-left: 320px;
+    width: 680px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.footer-text a{
+    color: white;
+    font-size: 15px;
+    font-family: Tahoma;
+}
+.xephang{
+    font-size: 17px;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    --border-radius: 10px;
+    margin-right: 5px;
+}
+
+#input{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+}
+
+.anhnen img{
+    padding-top: 10px;
+    width: 140px;
+    height: 315px;
+}
